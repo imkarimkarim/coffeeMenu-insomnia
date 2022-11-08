@@ -1,0 +1,28 @@
+_id: req_e49f69f6bbcd4c969a6cb98ca0c6ce9d
+type: Request
+parentId: wrk_96a27fd4858d4491a8305f554bc51f85
+modified: 1667921409154
+created: 1666701996029
+url: http://localhost:1337/api/products?populate=store
+name: products
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_10b2726712314ded85128b53da45b900
+    name: ""
+    value: ""
+    description: ""
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NiwiaWF0IjoxNjY2NzAwMzM3LCJleHAiOjE2NjkyOTIzMzd9._iSMhvtdlSjAS4P3_I86NISZ2lHYtAVuCyMXf1M62Js
+  disabled: true
+metaSortKey: 300
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

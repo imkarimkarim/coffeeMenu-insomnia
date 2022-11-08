@@ -1,0 +1,36 @@
+_id: req_88b96d29700e42cd947d8f901be7ce5f
+type: Request
+parentId: wrk_96a27fd4858d4491a8305f554bc51f85
+modified: 1667899421615
+created: 1667840406157
+url: http://localhost:1337/api/stores
+name: stores
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "data": {
+        "name": "new shop",
+        "users_permissions_user": 16,
+    		"username": "newshoop2"
+      }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_1fdd4f9137ee4fc38ce9202d385e873f
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTYsImlhdCI6MTY2Nzg5OTEyNSwiZXhwIjoxNjcwNDkxMTI1fQ.2r7boJO7LGQz1_cDAKfctC3FZvJjT600hwBl9K9emBM
+  disabled: false
+metaSortKey: 700
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

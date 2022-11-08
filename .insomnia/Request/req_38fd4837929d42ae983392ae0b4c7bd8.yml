@@ -1,0 +1,29 @@
+_id: req_38fd4837929d42ae983392ae0b4c7bd8
+type: Request
+parentId: wrk_96a27fd4858d4491a8305f554bc51f85
+modified: 1667921380754
+created: 1666688907938
+url: http://localhost:1337/api/products/1
+name: products
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_1fdd4f9137ee4fc38ce9202d385e873f
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTYsImlhdCI6MTY2NzkyMTM3MSwiZXhwIjoxNjcwNTEzMzcxfQ.cKp8EJFCOAKgqNsK91RNzQ4b2Wk-JjBCHbyScI4AGpU
+  disabled: false
+metaSortKey: 200
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

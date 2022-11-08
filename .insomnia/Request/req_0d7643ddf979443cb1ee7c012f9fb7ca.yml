@@ -1,0 +1,36 @@
+_id: req_0d7643ddf979443cb1ee7c012f9fb7ca
+type: Request
+parentId: wrk_96a27fd4858d4491a8305f554bc51f85
+modified: 1667929391789
+created: 1666558806056
+url: http://localhost:1337/api/products
+name: products
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "data": {
+        "name": "goje",
+    		"price": 0,
+        "store": 2
+      }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_1fdd4f9137ee4fc38ce9202d385e873f
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTYsImlhdCI6MTY2Nzg0MjA1MCwiZXhwIjoxNjcwNDM0MDUwfQ.OA3Q8wg_xYxgR3p1acfmAedQ4EcdCx4XO0xlygwmKi4
+  disabled: false
+metaSortKey: 100
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

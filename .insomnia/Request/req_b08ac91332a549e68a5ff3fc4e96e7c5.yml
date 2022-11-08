@@ -1,0 +1,23 @@
+_id: req_b08ac91332a549e68a5ff3fc4e96e7c5
+type: Request
+parentId: wrk_96a27fd4858d4491a8305f554bc51f85
+modified: 1667840441368
+created: 1667316454840
+url: http://localhost:1337/api/users/me
+name: users/me
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAsImlhdCI6MTY2NzMxNjUwNSwiZXhwIjoxNjY5OTA4NTA1fQ.RFIJ5cKt2e-2Okx0FbhQKrOVIkIRowwd40zSlSU21CU
+metaSortKey: 900
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

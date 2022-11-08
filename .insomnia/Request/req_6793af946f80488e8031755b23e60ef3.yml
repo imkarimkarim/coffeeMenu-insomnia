@@ -1,0 +1,29 @@
+_id: req_6793af946f80488e8031755b23e60ef3
+type: Request
+parentId: wrk_96a27fd4858d4491a8305f554bc51f85
+modified: 1667920713668
+created: 1667841070744
+url: http://localhost:1337/api/stores/6
+name: stores
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_1fdd4f9137ee4fc38ce9202d385e873f
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTYsImlhdCI6MTY2Nzg5OTEyNSwiZXhwIjoxNjcwNDkxMTI1fQ.2r7boJO7LGQz1_cDAKfctC3FZvJjT600hwBl9K9emBM
+  disabled: false
+metaSortKey: 750
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

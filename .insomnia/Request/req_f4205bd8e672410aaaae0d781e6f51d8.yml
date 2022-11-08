@@ -1,0 +1,30 @@
+_id: req_f4205bd8e672410aaaae0d781e6f51d8
+type: Request
+parentId: wrk_96a27fd4858d4491a8305f554bc51f85
+modified: 1667921369732
+created: 1666558533176
+url: http://localhost:1337/api/auth/local
+name: local
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "identifier": "karim",
+      "password": "jjjjjjjj"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_979bea8a1c864984a0e235a06fb7ad55
+authentication: {}
+metaSortKey: 0
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
