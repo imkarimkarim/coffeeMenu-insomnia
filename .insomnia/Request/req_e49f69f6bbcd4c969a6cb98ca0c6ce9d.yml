@@ -1,9 +1,9 @@
 _id: req_e49f69f6bbcd4c969a6cb98ca0c6ce9d
 type: Request
 parentId: wrk_96a27fd4858d4491a8305f554bc51f85
-modified: 1667921409154
+modified: 1667981287682
 created: 1666701996029
-url: http://localhost:1337/api/products?populate=store
+url: "{{ _.api }}/products?populate=store"
 name: products
 description: ""
 method: GET

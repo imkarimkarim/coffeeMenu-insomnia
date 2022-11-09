@@ -1,9 +1,9 @@
 _id: req_1683892168484dd8a3850fa31243053b
 type: Request
 parentId: wrk_96a27fd4858d4491a8305f554bc51f85
-modified: 1667921315199
+modified: 1667988510359
 created: 1666689013488
-url: http://localhost:1337/api/auth/local/register
+url: "{{ _.api }}/auth/local/register"
 name: register
 description: ""
 method: POST
@@ -11,9 +11,9 @@ body:
   mimeType: application/json
   text: |-
     {
-      "username": "heshmat",
-      "email": "heshi@strapi.io",
-      "password": "jjjjjjjj"
+      "username": "{{ _.username }}",
+      "email": "{{ _.email }}",
+      "password": "{{ _.password }}"
     }
 parameters: []
 headers:

@@ -1,10 +1,10 @@
-_id: req_1e9bde42769d48f099788777d7278bde
+_id: req_a15e913657d64241864512739499c10d
 type: Request
 parentId: wrk_96a27fd4858d4491a8305f554bc51f85
-modified: 1667988899203
-created: 1666702460280
-url: "{{ _.api }}/products/{{ _.product_id }}"
-name: products
+modified: 1667988611751
+created: 1667930541834
+url: "{{ _.api }}/stores/{{ _.store_id }}"
+name: stores
 description: ""
 method: PUT
 body:
@@ -13,8 +13,8 @@ body:
     {
       "data": {
         "name": "new name",
-    		"price": 0,
-        "store": "{{ _.store_id }}"
+        "users_permissions_user": "{{ _.users_permissions_user }}",
+    		"username": "newname"
       }
     }
 parameters: []
@@ -25,7 +25,8 @@ headers:
 authentication:
   type: bearer
   token: "{{ _.jwd }}"
-metaSortKey: 400
+  disabled: false
+metaSortKey: 1000
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

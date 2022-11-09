@@ -1,9 +1,9 @@
 _id: req_88b96d29700e42cd947d8f901be7ce5f
 type: Request
 parentId: wrk_96a27fd4858d4491a8305f554bc51f85
-modified: 1667899421615
+modified: 1667989167051
 created: 1667840406157
-url: http://localhost:1337/api/stores
+url: "{{ _.api }}/stores"
 name: stores
 description: ""
 method: POST
@@ -12,9 +12,9 @@ body:
   text: |-
     {
       "data": {
-        "name": "new shop",
-        "users_permissions_user": 16,
-    		"username": "newshoop2"
+        "name": "{{ _.store_name }}",
+    		"username": "{{ _.store_user_name }}",
+        "users_permissions_user": "{{ _.users_permissions_user }}"
       }
     }
 parameters: []
@@ -24,7 +24,7 @@ headers:
     id: pair_1fdd4f9137ee4fc38ce9202d385e873f
 authentication:
   type: bearer
-  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTYsImlhdCI6MTY2Nzg5OTEyNSwiZXhwIjoxNjcwNDkxMTI1fQ.2r7boJO7LGQz1_cDAKfctC3FZvJjT600hwBl9K9emBM
+  token: "{{ _.jwd }}"
   disabled: false
 metaSortKey: 700
 isPrivate: false
